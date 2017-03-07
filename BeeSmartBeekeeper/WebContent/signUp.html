@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Регистрация</title>
+<link rel="stylesheet" type="text/css" href="beeSmartBeekeeper_css.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="header">
+ BeeSmartBeekeeper
+</div>
+<div class="row">
+<div class="col-2 col-m-3 menu">
+<ul>
+<li onclick="parent.location='index.html'">Начало</li>
+<li onclick="parent.location='product.html'">Продукт</li>
+<li onclick="parent.location='aboutUs.html'">За нас</li>
+<li onclick="parent.location='signUp.html'">Регистрация</li>
+<li onclick="parent.location='login.html'">Вход</li>
+</ul>
+					
+
+</div>
+<div class="col-7 col-m-9">
+<form class="contact_form" action="signup" method="POST" >
+	<div class="row">
+		<label for="name" style="color:#0e1526">Enter your full name*:</label><br />
+		<input id="name" class="input" name="name" type="text" value="" size="50"  height="15px"/><br /> <br />
+	</div>
+	<div class="row">
+		<label for="email" style="color:#0e1526">Enter your email*:</label><br />
+		<input id="email" class="input" name="email" type="text" value="" size="50" /><br /> <br />
+	</div>
+	<div class="row">
+		<label for="town" style="color:#0e1526">Enter your town*:</label><br />
+		<input id="town" class="input" name="town" type="text" value="" size="50" /><br /> <br />
+	</div>
+	
+	<div class="row">
+		<label for="id" style="color:#0e1526">Enter your beehive id*:</label><br />
+		<input id="beehiveid" class="input" name="beehiveid" type="text" value="" size="50" /><br /> <br />
+	</div>
+	<div class="row">
+		<label for="password" style="color:#0e1526">Enter your password*:</label><br />
+		<input id="password" class="input" name="password" type="text" value="" size="50" /><br /> <br />
+	</div>
+	<input class="submit_button" type="submit" value="Sign Up" /> <br />
+	</form>
+</div>
+
+<div class="col-3 col-m-12">
+……
+</div>
+</div>
+
+<div class="footer">
+BeeSmartBeekeeper | All rights reserved. 2016
+</div>
+</body>
+</html>

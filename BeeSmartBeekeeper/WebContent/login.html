@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Вход</title>
+<link rel="stylesheet" type="text/css" href="beeSmartBeekeeper_css.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="header">
+ BeeSmartBeekeeper
+</div>
+<div class="row">
+<div class="col-2 col-m-3 menu">
+<ul>
+<li onclick="parent.location='mainPage.html'">Начало</li>
+<li onclick="parent.location='product.html'">Продукт</li>
+<li onclick="parent.location='aboutUs.html'">За нас</li>
+<li onclick="parent.location='new 1.html'">Регистрация</li>
+<li onclick="parent.location='login.html'">Вход</li>
+
+</ul>
+</div>
+<div class="col-7 col-m-9">
+<form method="post" action="login">
+        <p><input type="text" name="email" value="" placeholder="Email"></p>
+        <p><input type="password" name="password" value="" placeholder="Password"></p>
+        <p class="remember_me">
+          <label>
+            <input type="checkbox" name="remember_me" id="remember_me">
+            Remember me on this computer.
+          </label>
+        </p>
+        <input class="submit_button" name="signUpButton" type="submit" value="Sign Up" />
+      </form>
+</div>
+<div class="col-3 col-m-12">
+……
+</div>
+</div>
+<div class="footer">
+BeeSmartBeekeeper | All rights reserved. 2016
+</div>
+</body>
+</html>
