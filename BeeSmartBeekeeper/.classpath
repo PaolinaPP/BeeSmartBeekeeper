@@ -23,5 +23,11 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/pc02/workspace2/BeeSmartBeekeeper/mysql-connector-java-5.1.39-bin.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-7.0.70/lib/ecj-4.4.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pc02/Downloads/jfreechart-1.0.19-fx-javadocs.zip"/>
+	<classpathentry kind="lib" path="C:/Users/pc02/Downloads/jcommon-1.0.23.zip"/>
+	<classpathentry kind="lib" path="C:/Users/pc02/Downloads/jfreechart-1.0.19.zip"/>
+	<classpathentry kind="lib" path="C:/Users/pc02/Downloads/jfreechart.jar.zip"/>
+	<classpathentry kind="lib" path="C:/Users/pc02/Downloads/jfreechart-1.0.12.jar.zip"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
